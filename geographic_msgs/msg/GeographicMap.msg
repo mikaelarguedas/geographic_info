@@ -1,7 +1,6 @@
 # Geographic map for a specified region.
 
-Header header            # stamp specifies time
-                         # frame_id (normally /map)
+std_msgs/Header header
 
 uuid_msgs/UniqueID id    # identifier for this map
 BoundingBox  bounds      # 2D bounding box containing map
